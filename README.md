@@ -28,29 +28,25 @@ MathVision is a web application that helps users explore math concepts interacti
 
 Follow these steps to run the project locally:
 
+**1. Clone the repository**
 ```bash
-# 1. Clone the repository
 git clone https://github.com/your-username/mathvision.git
 cd mathvision
+2. Install dependencies
 
-# 2. Install dependencies
 npm install
+3. Start the development server
 
-# 3. Start the development server
 npm start
 Then open http://localhost:3000 in your browser.
-
----
 
 🛠️ Tech Stack
 
 Frontend: React.js + JavaScript
 Styling: CSS
 State Management: React Hooks (useState, useEffect)
-
----
-
 📁 Folder Structure
+
 skilsetik/
 ├── public/
 ├── src/
@@ -58,11 +54,7 @@ skilsetik/
 ├── screenshots/          
 ├── package.json
 └── README.md
-
----
+🤝 Author
 
 Serikkhan Sanzhar
 Web Developer | Project Creator
-
-📄 License
-This project is licensed under the MIT License. See the LICENSE file for more details.
