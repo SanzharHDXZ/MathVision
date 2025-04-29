@@ -22,8 +22,6 @@ MathVision is a web application that helps users explore math concepts interacti
 ### 📊 Stats Dashboard
 <img src="./screenshots/stats-view.png" alt="Stats View" width="600"/>
 
-> *(Make sure to place your screenshots in a `screenshots/` folder in the root of the project.)*
-
 ---
 
 ## 🚀 Getting Started
@@ -42,33 +40,29 @@ npm install
 npm start
 Then open http://localhost:3000 in your browser.
 
+---
+
 🛠️ Tech Stack
 
-Frontend: React.js + TypeScript
-Styling: Tailwind CSS
+Frontend: React.js + JavaScript
+Styling: CSS
 State Management: React Hooks (useState, useEffect)
-📁 Folder Structure
 
-mathvision/
+---
+
+📁 Folder Structure
+skilsetik/
 ├── public/
 ├── src/
-│   ├── components/       # UI components
-│   ├── data/             # Flashcard content
-│   ├── views/            # Card and Stats views
-│   └── App.tsx
-├── screenshots/          # Images for README
+│   └── App.js
+├── screenshots/          
 ├── package.json
 └── README.md
-🧩 Future Improvements
 
-⏱️ Quiz mode with countdown timer
-☁️ Save progress with backend integration
-🌍 Multilingual support
-🤝 Author
+---
 
-[Your Name]
+Serikkhan Sanzhar
 Web Developer | Project Creator
 
 📄 License
-
 This project is licensed under the MIT License. See the LICENSE file for more details.
