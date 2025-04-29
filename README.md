@@ -30,8 +30,8 @@ Follow these steps to run the project locally:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/mathvision.git
-cd mathvision
+git clone https://github.com/SanzharHDXZ/MathVision
+cd skilsetik
 
 # 2. Install dependencies
 npm install
@@ -45,9 +45,7 @@ Then open http://localhost:3000 in your browser.
 
 🛠️ Tech Stack
 
-Frontend: React.js + JavaScript
-Styling: CSS
-State Management: React Hooks (useState, useEffect)
+Full-Stack: React.js + CSS + JavaScript + React Hooks (useState, useEffect)
 
 ---
 
@@ -66,5 +64,4 @@ skilsetik/
 Serikkhan Sanzhar
 Web Developer | Project Creator
 
-📄 License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+This project is licensed under the MIT License.
