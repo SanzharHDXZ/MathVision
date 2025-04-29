@@ -1,53 +1,74 @@
-MathVision 📐
+# 📐 MathVision  
+**Interactive Math Concept Explorer**
 
-Interactive Math Concept Explorer
+MathVision is a web application that helps users explore math concepts interactively using flashcards and real-time performance tracking.
 
-MathVision is a web application designed to help students explore and learn math concepts interactively through flashcards and performance statistics.
+---
 
-🔍 Features
+## 🔍 Features
 
-📋 Flashcards with categorized difficulty levels (Easy, Medium, Hard)
-📈 Stats to track correct, incorrect, and skipped answers
-🔄 Card Navigation with Previous, Next, Skip, and Reset options
-🧠 Learning through repetition to strengthen memory and understanding
+- 📋 Flashcards with **three difficulty levels**: Easy, Medium, and Hard  
+- 📈 Live performance **statistics tracking**  
+- 🔄 Easy-to-use navigation: **Next**, **Previous**, **Skip**, and **Reset**  
+- 🧠 Built for **active learning and memory reinforcement**
 
-🚀 Getting Started
+---
 
-To run the project locally:
+## 📸 Screenshots
 
-Clone the repository:
-###git clone https://github.com/Sanzhar/mathvision.git
+### 🃏 Flashcard View
+<img src="./screenshots/card-view.png" alt="Flashcard View" width="600"/>
+
+### 📊 Stats Dashboard
+<img src="./screenshots/stats-view.png" alt="Stats View" width="600"/>
+
+> *(Make sure to place your screenshots in a `screenshots/` folder in the root of the project.)*
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to run the project locally:
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/your-username/mathvision.git
 cd mathvision
-Install the dependencies:
-###npm install
-Start the development server:
-###npm start
-Open your browser at:
-###http://localhost:3000
+
+# 2. Install dependencies
+npm install
+
+# 3. Start the development server
+npm start
+Then open http://localhost:3000 in your browser.
+
 🛠️ Tech Stack
 
-Frontend: React.js / TypeScript
+Frontend: React.js + TypeScript
 Styling: Tailwind CSS
 State Management: React Hooks (useState, useEffect)
-📁 Project Structure (example)
+📁 Folder Structure
 
 mathvision/
 ├── public/
 ├── src/
-│   ├── components/
-│   ├── data/
-│   ├── views/
+│   ├── components/       # UI components
+│   ├── data/             # Flashcard content
+│   ├── views/            # Card and Stats views
 │   └── App.tsx
+├── screenshots/          # Images for README
 ├── package.json
 └── README.md
 🧩 Future Improvements
 
-Add quiz mode with a countdown timer
-Enable progress saving to a database
-Add multilingual support
+⏱️ Quiz mode with countdown timer
+☁️ Save progress with backend integration
+🌍 Multilingual support
 🤝 Author
 
-[Your Name] – Developer, Designer, Idea Creator
+[Your Name]
+Web Developer | Project Creator
+
 📄 License
 
-This project is licensed under the MIT License – see the LICENSE file for details.
+This project is licensed under the MIT License. See the LICENSE file for more details.
